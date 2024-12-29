@@ -1,0 +1,52 @@
+# Binaries
+/bin/
+/obj/
+/out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio temporary files
+.vs/
+
+# Rider/JetBrains specific files
+.idea/
+*.sln.iml
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Token or sensitive files
+appsettings.json
+secrets.json
+.env
+*.config
+
+# Build and publish output
+/build/
+dist/
+
+# Dependency directories
+/node_modules/
+packages/
+
+# Resharper specific
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet Packages
+*.nupkg
+project.lock.json
+# If using NuGet fallback folder on Mac/Linux
+.nuget/
